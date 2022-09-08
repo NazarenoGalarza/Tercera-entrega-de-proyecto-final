@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Roboto:wght@100&display=swap");
+header {
+  background: linear-gradient(to right, #55585d, #607d8b, black);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+header h1 {
+  color: #ffffff;
+  padding-top: 30px;
+  font-size: 50px;
+}
+header .nav-link {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0.1s;
+  padding-left: 20px;
+}
+header .nav-link:hover {
+  background: linear-gradient(to bottom, #c9c9c9, #607d8b);
+  color: #e3e3e3;
+  border-radius: px;
+}
+header .logo {
+  width: 70px;
+  padding-left: 20px;
+  transition: 0.1s;
+}
+header .logo:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background: linear-gradient(to right, #55585d, #607d8b, black);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid black;
+  margin-top: 100px;
+}
+footer div {
+  width: 150px;
+}
+footer .cielo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+footer .cielo a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+footer .cielo a:hover {
+  background: #607d8b;
+  color: black;
+  transform: scale(1.1);
+}
+footer h6 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 16px;
+}
+footer h5 {
+  color: #ffffff;
+  padding-top: 35px;
+  font-size: 24px;
+}
+footer li {
+  list-style: none;
+  padding: 1px;
+}
+footer li .footer-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer li .footer-link:hover {
+  background: #607d8b;
+  color: black;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background: linear-gradient(to bottom, rgb(212, 211, 211), #9db7c4);
+}
+
+section h2 {
+  text-align: center;
+  background: linear-gradient(to right, #607d8b, black);
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 50px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+section p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: black;
+  margin: 20px;
+}
+
+.trabajos {
+  padding: 30px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.trabajos h3 {
+  color: black;
+  border: 2px solid #607d8b;
+  padding: 30px;
+  font-size: 40px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  box-shadow: 4px 8px 10px 1px rgba(0, 0, 0, 0.38);
+}
+.trabajos a {
+  color: black;
+  border: 2px solid #607d8b;
+  padding: 30px;
+  font-size: 40px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: 0.5s;
+  box-shadow: 4px 8px 10px 1px rgba(0, 0, 0, 0.38);
+}
+.trabajos a:hover {
+  background: #607d8b;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  transform: scale(1.2);
+}
+
+.section {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 50px;
+}
+.section .card {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  margin: 30px 50px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.section .card-img-top {
+  width: 50%;
+  margin: 20px 10px;
+}
+.section .card-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.section .card-text {
+  line-height: 1.5;
+  font-size: 2;
+}
+
+.img-card {
+  width: 350px;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px 0;
+  margin: 20px 0;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 4px 8px 10px 1px rgba(0, 0, 0, 0.38);
+}
+.box h3 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+}
+.box p {
+  line-height: 1.5;
+  font-size: 2;
+  font-size: 16px;
+}
+
+.map-img {
+  width: 350px;
+  padding: 30px 0;
+}
+
+.ubicacion-text {
+  margin: auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 350px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 4px 8px 10px 1px rgba(0, 0, 0, 0.38);
+}
+.ubicacion-text h3 {
+  font-size: 32px;
+}
+.ubicacion-text p {
+  font-size: 24px;
+}
+
+.map-img-ruta {
+  width: 150px;
+  padding: 20px;
+}
+.map-img-ruta:hover {
+  transform: scale(1.2);
+}
+
+.cuestionario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.forms {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  width: 380px;
+}
+
+.forms label {
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: linear-gradient(to right, #607d8b, black);
+  font-size: 24px;
+}
+
+.info {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 370px;
+  margin: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 4px 8px 10px 1px rgba(0, 0, 0, 0.38);
+}
+.info h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.info h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.info p {
+  font-size: 16px;
+}
+
+.botones input {
+  margin: 10px 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 7px;
+  background: #9eb1bb;
+  color: black;
+  border: 1px solid #ffffff;
+  box-shadow: 4px 8px 10px 1px rgba(0, 0, 0, 0.38);
+}
+.botones input:hover {
+  background: #607d8b;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transform: scale(1.1, 1.1);
+}/*# sourceMappingURL=estilo.css.map */

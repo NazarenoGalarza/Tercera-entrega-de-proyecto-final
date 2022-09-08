@@ -1,0 +1,31 @@
+//! colores para titulos
+$color-principal: #ffffff;
+$color-titulos: #ffffff;
+$color-subtitulos: black;
+$color-footer: #ffffff;
+$boton1: black;
+$boton2: #ffffff;
+
+//! colores para fondos
+$background-titulos: linear-gradient(to right, #607d8b, black);
+$background-gradiente: linear-gradient(to right, #55585d, #607d8b, black);
+$background-hover: linear-gradient(to bottom, #c9c9c9, #607d8b);
+$background-cards: rgba(255, 255, 255, 0.8);
+$background-buttons: #9eb1bb;
+$background-buttons2: #607d8b;
+
+//! colores de efectos
+$hover: rgba(0, 0, 0, 0.2);
+$hover2: #607d8b;
+
+//! tamaños de fuente
+$font1: 16px;
+$font2: 24px;
+$font3: 32px;
+$font4: 40px;
+$font5: 50px;
+
+//! borders
+$border-cards: 1px solid black;
+$border-button1: 1px solid #ffffff;
+$border-button2: 1px solid #607d8b;
